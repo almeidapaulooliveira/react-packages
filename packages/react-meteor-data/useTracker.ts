@@ -18,11 +18,11 @@ function checkCursor(data: any): void {
     }
   }
   if (shouldWarn) {
-    console.warn(
-      'Warning: your reactive function is returning a Mongo cursor. '
-      + 'This value will not be reactive. You probably want to call '
-      + '`.fetch()` on the cursor before returning it.'
-    );
+    // console.warn(
+    //   'Warning: your reactive function is returning a Mongo cursor. '
+    //   + 'This value will not be reactive. You probably want to call '
+    //   + '`.fetch()` on the cursor before returning it.'
+    // );
   }
 }
 
